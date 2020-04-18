@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+.bg-orange {
+    background-color: orange;
+}
+.bg-orange-red {
+    background-color: orangered;
+}
+.container {
+    max-width: 1300px;
+}
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: 0 25px 90px rgba(50, 33, 83, 0.08);
+}
+.pricing-body {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 3% 2%;
+    flex-basis: 75%;
+}
+.pricing-body li {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 4%;
+}
+.pricing-total {
+    flex-basis: 25%;
+    background-color: #00f2a9;
+    padding: 2% 4%;
+}
+.heading-1 {
+    font-size: 60px;
+}
+.pricing-title {
+    font-size: 48px;
+    color: #16d69c;
+}
